@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(245, 237, 222);
+}
+body {
+    cursor: url('cursor.png'), auto;
+}
+.parent-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent-9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: initial;
+  }
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, 50px);
+}
+  
+
+.eye {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, -900px);
+}
+.lashes { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, -1800px);
+
+  } 
+  .lashes img {  
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.1s ease; 
+  } 
+   
+  .lashes:hover img { 
+    opacity: 1; 
+  } 
+
+  .parent-2 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, -60px);
+  }
+
+  .parent-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, -1750px);
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+}
+
+.parent-3 img {
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.parent-3:hover img {
+  transform: scale(1.2); 
+}
+
+.parent-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, -1750px);
+  }
+  
+  .parent-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, -1750px);
+  }
+  
+  .parent-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, -1750px);
+  }
+
+  .parent-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, -1650px);
+  }
+
+  .parent-10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, -20px);
+  }

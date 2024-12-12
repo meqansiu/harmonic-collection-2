@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(245, 237, 222);
+}
+body {
+    cursor: url('cursor.png'), auto;
+}
+
+.parent-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+.header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.parent-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.parent-3 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(9px, -532px);
+  } 
+  .parent-3 img { 
+    opacity: 0;
+    transition: opacity 0.2s ease; 
+  } 
+   
+  .parent-3:hover img { 
+    opacity: 1; 
+  } 
+
+  .parent-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(9px, -450px);
+    }
+
+    .parent-5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(9px, -390px);
+        }

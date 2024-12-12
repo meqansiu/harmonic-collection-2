@@ -1,0 +1,185 @@
+body {
+    background-color: rgb(245, 237, 222);
+}
+body {
+    cursor: url('cursor.png'), auto;
+}
+
+@font-face {
+  font-family: suntage;
+  src: url(Suntage.ttf);
+}
+
+.parent-1 {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .lana01 { 
+    position: relative; 
+    width: 320px;
+    left: 244px;
+    top: -735px;
+  } 
+  .lana01 img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.2s ease; 
+  } 
+   
+  .lana01:hover img { 
+    opacity: 1; 
+  } 
+
+  .lana02 { 
+    position: relative; 
+    width: 320px;
+    left: 553px;
+    top: -1053px;
+  } 
+  .lana02 img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.2s ease; 
+  } 
+   
+  .lana02:hover img { 
+    opacity: 1; 
+  } 
+  .lana03 { 
+    position: relative; 
+    width: 320px;
+    left: 861px;
+    top: -1373px;
+  } 
+  .lana03 img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.2s ease; 
+  } 
+   
+  .lana03:hover img { 
+    opacity: 1; 
+  } 
+  .lana04 { 
+    position: relative; 
+    width: 320px;
+    left: 244px;
+    top: -1373px;
+  } 
+  .lana04 img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.2s ease; 
+  } 
+   
+  .lana04:hover img { 
+    opacity: 1; 
+  } 
+  .lana05 { 
+    position: relative; 
+    width: 320px;
+    left: 553px;
+    top: -1690px;
+  } 
+  .lana05 img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.2s ease; 
+  } 
+   
+  .lana05:hover img { 
+    opacity: 1; 
+  } 
+  .lana06 { 
+    position: relative; 
+    width: 320px;
+    left: 861px;
+    top: -2011px;
+  } 
+  .lana06 img { 
+    width: 100%; 
+    height: auto; 
+    opacity: 0;
+    transition: opacity 0.2s ease; 
+  } 
+   
+  .lana06:hover img { 
+    opacity: 1; 
+  } 
+
+  .parent-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, -1930px);
+  }
+
+  .parent-4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translate(0px, -1900px);
+  }
+
+  .parent-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, -1750px);
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+}
+
+.parent-5 img {
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.parent-5:hover img {
+  transform: scale(1.2); 
+}
+
+.button:hover img {
+  transform: scale(1.2); 
+}
+
+.parent-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0px, -1950px);
+}
+
+.parent-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0px, -1950px);
+}
+
+.parent-8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0px, -1950px);
+}
+

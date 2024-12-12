@@ -1,0 +1,126 @@
+<DOCTYPE! html>
+<html>
+<head>
+    <title>JAZMINE</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="parent-1">
+        <img src="jazmine-logo.png" width="300px">
+    </div>
+
+    <div class="header">
+        <div><a href="https://www.instagram.com/isthatjazmine/?hl=en" target="_blank"><img src="jazmine-header.png" width="1200px"></a></div>
+    </div>
+
+    <div class="parent-2">
+        <div><img src="jazmine01.png" width="1100px"></div>
+    </div>
+
+    <div class="lip">
+        <div><img src="lip.png"></div>
+    </div>
+    <div class="lip2">
+        <div><img src="lip.png"></div>
+    </div>
+    <div class="lip3">
+        <div><img src="lip2.0.png"></div>
+    </div>
+    <div class="lip4">
+        <div><img src="lip2.0.png"></div>
+    </div>
+    <div class="lip5">
+        <div><img src="lip.png"></div>
+    </div>
+    <div class="lip6">
+        <div><img src="lip2.0.png"></div>
+    </div>
+
+    <div class="parent-3">
+        <img src="text-jazmine.png" width="1000px">
+    </div>
+
+    <div class="parent-4">
+        <img src="jazmine02.png" width="1300px">
+    </div>
+
+<!-- <div class="parent-5">
+        <div><a href="https://www.instagram.com/isthatjazmine/?hl=en" target="_blank">
+        <img src="instagram-jazmine.png" width="700px"></a></div>
+</div>
+
+<div class="parent-6">
+    <img src="jazmine-gallery-1.jpg" width="500px">
+    <img src="jazmine-gallery-2.jpg" width="500px">
+    <img src="jazmine-gallery-3.jpg" width="500px">
+</div>
+
+<div class="parent-7">
+    <img src="jazmine-gallery-4.jpg" width="500px">
+    <img src="jazmine-gallery-5.jpg" width="500px">
+    <img src="jazmine-gallery-6.jpg" width="500px">
+</div>
+
+<div class="parent-8">
+    <img src="jazmine-gallery-7.jpg" width="500px">
+    <img src="jazmine-gallery-8.jpg" width="500px">
+    <img src="jazmine-gallery-9.jpg" width="500px">
+</div>
+-->
+
+<style>
+    .music-player {
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      transform: translate(0px, -1900px);
+    }
+    
+    .controls {
+      margin-top: 10px;
+    }
+    
+    button {
+      border: none;
+      background: none;
+      padding: 10px 15px;
+      margin: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .button:hover img {
+      transform: scale(1.2); 
+    }
+    
+ </style>
+    
+<div class="music-player">
+            <audio id="audio">
+              <source src="john-wayne.mp3" type="audio/mpeg">
+            </audio>
+            <div class="controls">
+              <button onclick="playMusic()"><img src="play.png" width="80px"></button>
+              <button onclick="pauseMusic()"><img src="pause.png" width="80px"></button>
+            </div>
+          </div>
+        
+          <script>
+            const audio = document.getElementById('audio');
+        
+            function playMusic() {
+              audio.play();
+            }
+        
+            function pauseMusic() {
+              audio.pause();
+            }
+          </script>
+
+        
+
+</body>
+
+</html>
